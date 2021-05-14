@@ -60,15 +60,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (cbEnabled.isChecked()){
-                    Toast.makeText(MainActivity.this,""+etName+"\n"+etMobileNum+"\n"+etGroupSize+"\n"+
+                    Toast.makeText(MainActivity.this,""+etName.getText()+"\n"+etMobileNum.getText()+"\n"+etGroupSize.getText()+"\n"+
                             dp.getDayOfMonth()+"/"+dp.getMonth()+1+"/"+dp.getYear()+"\n"+
-                            tp.getCurrentHour()+":"+tp.getCurrentMinute()+"\nSmoking area selected",Toast.LENGTH_LONG).show();
+                            tp.getCurrentHour()+":"+tp.getCurrentMinute()+"\nSmoking area selected",Toast.LENGTH_SHORT).show();
 
 
                 }else {
-                    Toast.makeText(MainActivity.this,""+etName+"\n"+etMobileNum+"\n"+etGroupSize+"\n"+
+                    Toast.makeText(MainActivity.this,""+etName.getText()+"\n"+etMobileNum.getText()+"\n"+etGroupSize.getText()+"\n"+
                         dp.getDayOfMonth()+"/"+dp.getMonth()+1+"/"+dp.getYear()+"\n"+
-                        tp.getCurrentHour()+":"+tp.getCurrentMinute()+"\nSmoking area not selected",Toast.LENGTH_LONG).show();
+                        tp.getCurrentHour()+":"+tp.getCurrentMinute()+"\nSmoking area not selected",Toast.LENGTH_SHORT).show();
                 }
             }
         });
