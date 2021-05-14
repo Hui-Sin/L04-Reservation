@@ -24,7 +24,7 @@
                     android:layout_width="54dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Name" />
+                    android:text="@string/name" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName"
@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="Enter Name"
+                    android:hint="@string/enter_name"
                     android:inputType="textPersonName" />
 
             </LinearLayout>
@@ -47,7 +47,7 @@
                     android:layout_width="54dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Mobile Number" />
+                    android:text="@string/mobile_number" />
 
                 <EditText
                     android:id="@+id/editTextMobileNumber"
@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="Enter Mobile Number"
+                    android:hint="@string/enter_mobile_number"
                     android:inputType="number" />
 
             </LinearLayout>
@@ -70,7 +70,7 @@
                     android:layout_width="54dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Group Size" />
+                    android:text="@string/group_size" />
 
                 <EditText
                     android:id="@+id/editTextNumberGS"
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="Enter Group Size"
+                    android:hint="@string/enter_group_size"
                     android:inputType="number" />
             </LinearLayout>
             <DatePicker
@@ -105,14 +105,14 @@
                     android:id="@+id/textViewArea"
                     android:layout_width="93dp"
                     android:layout_height="wrap_content"
-                    android:text="Area" />
+                    android:text="@string/area" />
 
                 <CheckBox
                     android:id="@+id/checkBoxArea"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Smoking Area" />
+                    android:text="@string/smoking_area" />
             </LinearLayout>
 
             <LinearLayout
@@ -125,14 +125,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Reset inputs" />
+                    android:text="@string/reset_inputs" />
 
                 <Button
                     android:id="@+id/buttonResetDNT"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Reset Date and Time" />
+                    android:text="@string/reset_date_and_time" />
 
             </LinearLayout>
 
@@ -140,7 +140,7 @@
                 android:id="@+id/buttonConfirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Confirm" />
+                android:text="@string/confirm" />
 
         </LinearLayout>
     </ScrollView>
